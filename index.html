@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculador de média</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="average-calculator-container">
+      <section class="container">
+        <header class="calculator-header">
+          <h1>Calcule sua média</h1>
+        </header>
+        <form class="average-calculator-form">
+          <div class="form-name">
+            <label for="">
+              Nome:
+              <input type="text" id="name"/>
+            </label>
+          </div>
+          <div class="form-subjects">
+            <label for="">
+              Selecione o Matéria:
+              <select name="" id="subjects">
+                <option value="Matemática">Matemática</option>
+                <option value="Português">Português</option>
+                <option value="Física">Física</option>
+                <option value="História">Hístória</option>
+                <option value="Geografia">Geografia</option>
+                <option value="Ed. física">Ed. física</option>
+                <option value="Inglês">Inglês</option>
+                <option value="Filosofia">Filosofia</option>
+                <option value="Biologia">Biologia</option>
+                <option value="Química">Química</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-year">
+            <label for="">
+              selecione o ano:
+              <select name="" id="year">
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-grades">
+            <label for="">
+              Digite as Notas:
+              <div>
+                <input type="text" id="nota1" />
+              </div>
+              <div>
+                <input type="text" id="nota2" />
+              </div><div>
+                <input type="text" id="nota3" />
+              </div><div>
+                <input type="text" id="nota4" />
+              </div>
+            </label>
+          </div>
+
+          <div class="form-button">
+            <button>Mostrar média</button>
+          </div>
+        </form>
+      </section>
+      <div class="res">
+        
+      </div>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
